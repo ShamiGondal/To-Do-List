@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>To-Do-List-ShamiGondal</title>
+    <title>AwesomBook-Library</title>
     <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./assests/profile-pic (1).png" type="image/x-icon">
@@ -22,8 +22,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-white bg-white shadow-sm px-2 px-md-0">
         <div class="container-fluid">
-            <a class="navbar-brand fs-3 fw-bold" href="/"><i
-                    class="fa-solid fa-t text-primary fs-2 fw-bolder"></i>o-Do-List</a>
+            <a class="navbar-brand fs-3 fw-bold" href="/"><i class="fa-solid fa-a text-primary fw-bolder fs-1"></i>wesomBook</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -79,16 +78,16 @@
                         rows="6"></textarea>
                 </div>
                 <button type="button" class="btn btn-primary my-md-0 my-2" id="addNote">
-                    Add Note
+                    Add Book
                 </button>
                 <button type="button" class="btn btn-primary" onclick="clearStorage()" id="clearNotes">
-                    Clear Notes
+                    Clear All Books
                 </button>
             </form>
         </div>
         <div class="container p-md-5 p-3 bg-white rounded-5 mt-5 mb-5">
             <div class="d-flex justify-content-center align-items-center">
-                <h1 class="mt-3">Your Tasks </h1>
+                <h1 class="mt-3">Your Books </h1>
                 <lord-icon src="https://cdn.lordicon.com/jdljcidb.json" trigger="hover"
                     style="width: 70px; height: 70px">
                 </lord-icon>
@@ -160,7 +159,7 @@
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">
                             Close
                         </button>
-                        <button type="button" class="btn btn-primary" onclick="EditNote()">
+                        <button type="button" class="btn btn-primary" onclick="EditBook()">
                             Save Changes
                         </button>
                     </div>

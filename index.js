@@ -1,4 +1,4 @@
-const addNote = document.getElementById("addNote");
+const addBook = document.getElementById("addNote");
 const onSubmit = (e) => {
   e.preventDefault();
 };
@@ -69,7 +69,7 @@ function addAlert(text) {
   }, 3000);
 }
 
-addNote.addEventListener("click", function () {
+addBook.addEventListener("click", function () {
   getAndUpdate();
 
   // Clear the input fields
@@ -112,7 +112,7 @@ function setEditIndex(index) {
   edescription.value = currentData[1];
 }
 
-function EditNote() {
+function EditBook() {
   console.log(editIndex);
   itemJsonArray = JSON.parse(localStorage.getItem("itemsJson"));
   const currentData = itemJsonArray[editIndex];
